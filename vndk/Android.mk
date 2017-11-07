@@ -8,6 +8,7 @@ VNDK_SP_LIBRARIES := \
     android.hardware.graphics.common@1.0\
     libbinder\
     libhwbinder\
+    libvndksupport\
     libbase\
     libcutils\
     libhardware\
@@ -26,6 +27,8 @@ VNDK_SP_LIBRARIES := \
     libbacktrace\
     libunwind\
     libunwindstack\
+    libui\
+    libion\
     liblzma\
 
 endif
