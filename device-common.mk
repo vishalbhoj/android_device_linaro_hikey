@@ -59,6 +59,7 @@ PRODUCT_PACKAGES += libGLES_android
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl
 
 # Memtrack
@@ -184,6 +185,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0.vndk-sp\
+    android.hardware.graphics.composer@2.1.vndk-sp\
     android.hardware.graphics.allocator@2.0.vndk-sp\
     android.hardware.graphics.mapper@2.0.vndk-sp\
     android.hardware.graphics.common@1.0.vndk-sp\
