@@ -23,11 +23,8 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_PRELINK_MODULE := false
 
-ifeq ($(shell test $(PLATFORM_SDK_VERSION) -ge 21 && echo OK),OK)
-	LOCAL_MODULE_RELATIVE_PATH := hw
-else
-	LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
-endif
+LOCAL_MODULE_PATH_32 := $(TARGET_OUT_VENDOR)/lib/hw
+LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR)/lib64/hw
 
 MALI_DDK_TEST_PATH := hardware/arm/
 
