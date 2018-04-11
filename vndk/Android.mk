@@ -9,6 +9,7 @@ VNDK_SP_LIBRARIES += \
     libbinder\
     libhwbinder\
     libvndksupport\
+    libfmq\
     libbase\
     libcutils\
     libhardware\

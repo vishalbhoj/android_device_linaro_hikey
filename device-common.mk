@@ -194,6 +194,7 @@ PRODUCT_PACKAGES += \
     libbinder.vndk-sp\
     libhwbinder.vndk-sp\
     libbase.vndk-sp\
+    libfmq.vndk-sp\
     libcutils.vndk-sp\
     libhardware.vndk-sp\
     libhidlbase.vndk-sp\
