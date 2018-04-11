@@ -62,9 +62,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl
 
 # Memtrack
-PRODUCT_PACKAGES += memtrack.default \
-    android.hardware.memtrack@1.0-service \
-    android.hardware.memtrack@1.0-impl
+#PRODUCT_PACKAGES += memtrack.default \
+#    android.hardware.memtrack@1.0-service \
+#    android.hardware.memtrack@1.0-impl
 
 ifeq ($(HIKEY_USE_LEGACY_TI_BLUETOOTH), true)
 PRODUCT_PACKAGES += android.hardware.bluetooth@1.0-service.hikey uim
